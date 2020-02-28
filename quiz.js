@@ -8,7 +8,7 @@ var myPassword = '/Baqi9932';
 const salt = bcrypt.genSaltSync(saltRounds);
 const hash = bcrypt.hashSync(myPassword, salt);
 
-bcrypt.hashSync(myPassword, hash); // true
+bcrypt.hashSync(myPassword, hash); 
 
 console.log(hash);
 
