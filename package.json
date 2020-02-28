@@ -1,0 +1,19 @@
+{
+  "name": "ecx",
+  "version": "1.0.0",
+  "main": "ecx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "adekomiabdulbaqi3@gmail.com"
+  },
+  "author": "Qisky",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "is-array": "^1.0.1"
+  }
+}

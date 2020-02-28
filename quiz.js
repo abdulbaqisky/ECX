@@ -1,7 +1,7 @@
 const bcrypt = require("bcrypt");
 
 const saltRounds = 10;
-var myPassword = '/adeleye9932';
+var myPassword = '/Baqi9932';
 
 
 
@@ -21,5 +21,3 @@ if (myPassword == 'jbsuisdn'){
 }else{
     console.log(myPassword);
 }
-
-
