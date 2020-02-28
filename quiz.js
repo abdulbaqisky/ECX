@@ -12,10 +12,6 @@ bcrypt.hashSync(myPassword, hash); // true
 
 console.log(hash);
 
-bcrypt.compare(myPassword, hash, function(err, result) {
-    // result == true
-});
-
 if (myPassword == 'jbsuisdn'){
     console.log("Yeah")
 }else{
